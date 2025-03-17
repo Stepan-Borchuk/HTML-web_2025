@@ -12,72 +12,24 @@ body {
 	line-height: 100%;
 }
 
-/* section {
-	padding: 0;
-	margin: 0;
-	background-color: var(--bg-color);
-    border-radius: 10px;
-} */
-
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	color: var(--main-text-color);
-	margin: 0;
-	padding: 0;
-} */
-
-/* p {
-	color: var(--prim-color);
-	padding: 0;
-	margin: 0;
-} */
-
-ul {
+.list {
 	list-style: none;
-	/* padding: 0;
-	margin: 0; */
 }
 
-/* a {
-    text-decoration: none;
-} */
-
-/* header {
-    background-color: var(--bg-color-sec);
-    color: var(--prim-text-color);
-    padding: 10px 0;
-    text-align: center;
-    border-color: #ECECEC;
-    border: 1px;
-    width: 1600px;
-    height: 80px;
-
-    display: block;
-} */
-
-.logo {
-	/* display: block;
-    width: 145;
-    height: 31;
-    top: 24px;
-    left: 215px;  */
+.link {
+	text-decoration: none;
 }
 
-.logo {
+.header-logo {
 	font-family: Raleway;
 	font-weight: 700;
 	font-size: 26px;
-
 	letter-spacing: 3%;
-	color: var(--sec-text-color);
+	color: var(--main-text-color);
 }
 
-.logo-text {
-	color: var(--main-text-color);
+.logo {
+	color: var(--sec-text-color);
 }
 
 header {
@@ -87,15 +39,16 @@ header {
 	letter-spacing: 2%;
 }
 
-.nav-link {
+.header-link {
 	color: var(--main-text-color);
 }
 
-.nav-link:hover {
+.header-link:hover,
+.header-link:focus {
 	color: var(--sec-text-color);
 }
 
-.contacts > li {
+.header-contacts > li {
 	color: var(--prim-color);
 }
 
@@ -106,7 +59,7 @@ header {
 .hero h1 {
 	font-weight: 900;
 	font-size: 44px;
-	line-height: 60px;
+	line-height: 1.36;
 	letter-spacing: 6%;
 	text-align: center;
 	text-transform: uppercase;
@@ -114,9 +67,10 @@ header {
 }
 
 button {
+	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
-	line-height: 30px;
+	line-height: 1.88;
 	letter-spacing: 6%;
 	text-align: center;
 	vertical-align: middle;
@@ -134,7 +88,7 @@ button {
 .about p {
 	font-weight: 400;
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 1.71;
 	letter-spacing: 3%;
 	color: var(--prim-color);
 }
