@@ -39,17 +39,12 @@ header {
 	letter-spacing: 2%;
 }
 
-.header-link {
+.header-item {
 	color: var(--main-text-color);
 }
 
-.header-link:hover,
-.header-link:focus {
+.header-item:hover {
 	color: var(--sec-text-color);
-}
-
-.header-contacts > li {
-	color: var(--prim-color);
 }
 
 .hero {
